@@ -23,7 +23,8 @@ export class UsersController extends Controller {
      * Retrieves the details of an existing user.
      * Supply the unique user ID from either and receive corresponding user details.
      * @param userId The user's identifier
-     * @param name Provide a username to display
+     * @param firstName Provide a username to display
+     * @param lastName
      */
     @Get("{userId}")
     public async getUser(
